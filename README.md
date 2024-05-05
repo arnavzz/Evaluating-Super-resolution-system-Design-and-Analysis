@@ -48,10 +48,29 @@ python test.py
 3. Also improved the perceptual loss using the features before activation.
 
 <p align="center">
-  <img height="120" src="figures/architecture.jpg">
+  <img height="120" src="Images/Block model.png">
 </p>
 <p align="center">
   <img height="180" src="figures/RRDB.png">
 </p>
 
+
+## Qualitative Results
+PSNR (evaluated on the Y channel) and the perceptual index used in the PIRM-SR challenge are also provided for reference.
+
+<p align="center">
+  <img src="Images/R1.png">
+</p>
+<p align="center">
+  <img src="Images/R2.png">
+</p>
+
+
+## Ablation Study
+Overall visual comparisons for showing the effects of each component in
+ESRGAN. Each column represents a model with its configurations in the top.
+The red sign indicates the main improvement compared with the previous model.
+<p align="center">
+  <img src="figures/abalation_study.png">
+</p>
 
